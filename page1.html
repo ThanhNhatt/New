@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style1.css">
-  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./reponsive.css">
   <title>Đăng Nhập VieGo</title>
-  <link rel="shortcut icon" type="images/jpg" href="./images/logo.png"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@900&display=swap" rel="stylesheet">
@@ -244,7 +243,7 @@ document.getElementById("login-form1").addEventListener("submit", function(event
     // Kiểm tra thông tin đăng nhập
     if (email === "pronam47@gmail.com" && password === "nam123") {
       // Đăng nhập thành công, chuyển hướng đến trang thành công
-      window.location.href = "/index.html";
+      window.location.href = "./index.html";
     } else {
       // Hiển thị thông báo lỗi
       document.getElementById("message").innerHTML = "<p class='error-message'>Thông tin đăng nhập không chính xác. Vui lòng thử lại.</p>";

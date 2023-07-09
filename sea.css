@@ -2,7 +2,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-      background-image: url(./images/amthucbg.png);
+    background: #231512;
   }
   .swiper-container {
       position: relative;
@@ -55,10 +55,10 @@ body {
     background-color: rgba(251, 251, 251, 0.15);
   }
   #tenfood {
-    margin-top: 120px;
+    margin-top: 130px;
     text-align: center;
-    font-size: 35px;
-    font-size: 18px;
+   font-weight: 600;
+    font-size: 25px;
     font-family: 'Paytone One', sans-serif;
     color: rgb(252, 181, 0);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
@@ -77,30 +77,21 @@ body {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 43%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     z-index: 10;
   }
   .swiper-button-next {
-    right: 10px;
+    right: 5px;
   }
   .swiper-button-prev {
     left: 10px;
   }
-  .coment{
-    position: relative;
-    margin: 30px auto;
-    width: 80%;
-    min-height: 500px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow-y: scroll;
-  }
+
   .bannerfood{
     margin-top: 80px;
     position: relative;
@@ -141,10 +132,11 @@ body {
     padding-top: 30px;
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    color: rgb(226, 14, 14);
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+    color: #019bf4;
+    font-family: 'Bungee Inline', cursive;
+    white-space: nowrap;
   }
   #fiterfood{
     position: absolute;
@@ -212,39 +204,9 @@ font-size: 17px;
 font-family: 'Carlito', sans-serif;
 color: grey;
 }
-.coment input {
-    right: 21%;
-    bottom: 10px;
-    position: absolute;
-    border: none;
-    background: none;
-    font-size: 15px;
-    color: #222;
-    width: 60%;
-    height: 35px;
-    box-shadow: Inset 0 1px 8px rgba(0, 0, 0, 0.55);
-    border-radius: 10px;
-    text-indent: 10px;
-  }
-  .coment input::placeholder {
-    color: #555;
-    transition: all 0.3s ease;
-  }
-  #btncoment{
-    right:0%;
-    bottom: 10px;
-    width: 20%;
-    position: absolute;
-    display: flex;
-  }
-  #btncoment button{
-    margin-left: 10px;
-    border: 0px;
-    border-radius: 7px;
-    width: 40px;
-    height: 40px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  }
+
+ 
+ 
   #thanhdofood{
     position: absolute;
     bottom: 11%;

@@ -2275,10 +2275,10 @@ height: 300px;
     }
     .tieudetour {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin-left: 59px;
+      white-space:nowrap;
     font-size: 14px;
     font-family: 'Great Vibes', cursive;
     color: rgb(1, 0, 0);
@@ -3243,7 +3243,8 @@ height:95%;
         left: 41px;
       }
       #nhanxetfood{
-        width: 50%;text-align: center;margin: 0 auto;padding-top: 20px;font-size: 17px;color: black;
+        width: 70%;text-align: center;margin: 0 auto;padding-top: 20px;font-size: 17px;color: rgb(189, 182, 182);
+        font-weight: 600;
       }
        #tenmientour{
         padding-top: 100px;
@@ -3263,7 +3264,7 @@ height:95%;
   z-index: 9999;
   position: fixed;
  padding-top: 10px;
-  height: 17vh;
+  height: 18vh;
   background-color: rgb(255, 255, 255);
   transform:translateY(-50%);top:calc(100% + 10px)!important;
   margin: 0 auto;
@@ -4459,3 +4460,132 @@ font-size: 11px;
         font-family: 'Alegreya SC', serif;
         color:rgb(253, 249, 0);
        }
+       .tpdt{
+        width:100%;
+        height: auto;
+        white-space: nowrap;
+        padding:2px 10px;
+        background-color: rgb(54, 53, 53);
+        display: flex;
+        color: aliceblue;
+        text-indent: 10px;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        font-size: 12px;
+        font-family: Calibri;
+        display: none;
+    }
+    .tpdt:hover{
+       background-color: rgb(70, 69, 69);
+    }
+    .tpdt svg{
+       width: 15px;
+    }
+    #list-post{
+      padding-top: 20px;
+      border-radius: 15px;
+      margin: 20px auto;
+      width: 90%;
+      min-height: 300px;
+      height: auto;
+      background-color: #ebebee;
+     padding-bottom: 20px;
+    }
+    .review-div {
+      margin-left: 40px;
+      border-radius: 7px;
+      background:white;
+      max-width: 220px;
+      width: auto;
+      padding: 10px;
+      margin-top: 10px;
+  }
+  
+  .review-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+  
+  .review-info p {
+      font-size: 15px;
+      margin: 0;
+  }
+  
+  .review-info img {
+  
+      max-height: 50px;
+      margin-right: 10px;
+  }
+  #send{
+      margin: 0 auto;
+      width: 90%;
+      padding-top: 5px;
+      border-radius: 10px;
+      height: 45px;
+      background-color: #d4d4da;
+      display: flex;
+  }
+  #send input[type=text]{
+    margin-top: 2px;
+      width: 40%;
+      height: 30px;
+      border: 0px;
+      border-radius: 10px;
+      text-indent: 10px;
+    margin-left: 20px;
+  }
+  #send input[type=file]{
+      width: 34%;
+      padding-top: 7px;
+      padding-right: 20px;
+      height: 35px;
+      border: 0px;
+      border-radius: 10px;
+      text-indent: 10px;
+    margin-left: 20px;
+  }
+  #send svg{
+    margin-top: 7px;
+      width: 20px;
+      padding-bottom:12px;
+  }
+  #send button{
+    margin-top: 2px;
+      background-color: #f8a934;
+      height: 30px;
+      width: 50px;
+      border-radius: 7px;
+      
+  }
+  #danhgiasao{
+    margin-top: 30px;
+    margin-left: 15%;
+      display: flex;
+  }
+  #danhgiasao button{
+      border-radius: 7px;
+      font-weight: 600;
+      color: #796b62;
+      background-color:white;
+      border: 2px solid orangered;
+      font-size: 12px;
+      margin-left: 10px;
+  }
+  #danhgiashop{
+    padding-top: 20px;
+    margin: 10px auto;
+    display: flex;
+    width: 80%;
+    height: 100px;
+    background-color: #fffbf8;
+    border: 0.5px solid rgb(241, 228, 224);
+  }
+  .coment {
+    border-radius: 7px;
+    margin: 2% auto;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  padding-bottom: 30px;
+  }

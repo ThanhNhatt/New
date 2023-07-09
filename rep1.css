@@ -32,7 +32,7 @@
         font-family: 'Rowdies', cursive;
       }
       .bannerfood{
-        margin-top: 80px;
+        margin-top: 50px;
         position: relative;
         width: 100%;
         height: 25vh;
@@ -54,10 +54,9 @@
         padding: 30px;
         margin: 0 auto;
         text-align: center;
-        font-size: 17px;
-        font-family: 'Oswald', sans-serif;
-        color: rgb(226, 14, 14);
-        text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+        color: #019bf4;
+        font-family: 'Bungee Inline', cursive;
       }
       #text-tour div:nth-child(1){
         position: absolute;
