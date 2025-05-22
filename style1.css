@@ -3335,39 +3335,7 @@ a {
     width: 80px;
     height: 100%;
   }
-  #menuhome li:nth-child(2){
-    margin-left: 2%;
-    background-color: rgb(235, 58, 18);
-    width: 100px;
-    height: 105%;
-    border-radius: 0 0 2px 2px;
-    border-left: 2px solid red;
-    border-right: 2px solid red;
-    box-shadow: 1px 2px 5px rgba(0,0,0,0.4);
-  }
-  #menuhome li:nth-child(2) a{
-    position: relative;
-    margin: 0;
-    width: 90px;
-    height: 100%;
-  }
-  #menuhome li:nth-child(2) img{
-      position: absolute;
-      filter: saturate(100%);
-      filter: contrast(700%); 
-      top:50px;
-      left: -40px;
-      width: 65px;
-      height: 22px;
-  }
-  
-  #chuvie{
-    margin-right: 20px;
-    padding-top: 20px;
-    font-family: 'Potta One', cursive;
-    color: white;
-    text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
-  }
+ 
   #menuhome li:nth-child(3){
     align-items: center;
     width: 90px;
@@ -4191,7 +4159,7 @@ font-size: 11px;
          font-size: 90px;
          color: white;
          text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-         font-family: 'Londrina Shadow', cursive;
+         font-family: 'times', cursive;
         }
         #play-text svg{
           position: absolute;
